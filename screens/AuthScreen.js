@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import { SafeAreaView, Text, View } from 'react-native'
 
 class AuthScreen extends Component {
   render() {
     return (
-      <View>
+      <SafeAreaView>
         <Text>AuthScreen</Text>
         <Text>AuthScreen</Text>
         <Text>AuthScreen</Text>
@@ -13,7 +13,7 @@ class AuthScreen extends Component {
         <Text>AuthScreen</Text>
         <Text>AuthScreen</Text>
         <Text>AuthScreen</Text>
-      </View>
+      </SafeAreaView>
     )
   }
 }

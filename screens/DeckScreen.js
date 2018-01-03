@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import { SafeAreaView, Text, View } from 'react-native'
 
 class DeckScreen extends Component {
   render() {
     return (
-      <View>
+      <SafeAreaView>
         <Text>DeckScreen</Text>
         <Text>DeckScreen</Text>
         <Text>DeckScreen</Text>
@@ -13,7 +13,7 @@ class DeckScreen extends Component {
         <Text>DeckScreen</Text>
         <Text>DeckScreen</Text>
         <Text>DeckScreen</Text>
-      </View>
+      </SafeAreaView>
     )
   }
 }
