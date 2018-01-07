@@ -1,14 +1,21 @@
 import React, { Component } from 'react'
-import { SafeAreaView, Text, View } from 'react-native'
+import { AsyncStorage, SafeAreaView, Text, View } from 'react-native'
+import { connect } from 'react-redux'
+import * as actions from '../actions'
 
 class AuthScreen extends Component {
+  componentDidMount() {
+    this.props.facebookLogin()
+    AsyncStorage.removeItem('fb_token')
+  }
+
   render() {
     return (
       <SafeAreaView>
-        
+
       </SafeAreaView>
     )
   }
 }
 
-export default AuthScreen
+export default connect(null, actions)(AuthScreen)

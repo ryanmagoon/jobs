@@ -29,8 +29,13 @@ export default class App extends React.Component {
           }
         })
       }
+    },
+    {
+      navigationOptions: {
+        tabBarVisible: false
+      },
+      lazy: true
     })
-
     return (
       <Provider store={store}>
         <MainNavigator />
