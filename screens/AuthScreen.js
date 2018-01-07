@@ -5,14 +5,7 @@ class AuthScreen extends Component {
   render() {
     return (
       <SafeAreaView>
-        <Text>AuthScreen</Text>
-        <Text>AuthScreen</Text>
-        <Text>AuthScreen</Text>
-        <Text>AuthScreen</Text>
-        <Text>AuthScreen</Text>
-        <Text>AuthScreen</Text>
-        <Text>AuthScreen</Text>
-        <Text>AuthScreen</Text>
+        
       </SafeAreaView>
     )
   }
